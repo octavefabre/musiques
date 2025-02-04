@@ -19,7 +19,7 @@ if($conn):?>
         // préparer la requete
         // à la place products je peux y mettre une variable et donc renommer  ou meme inserer variable + tableau 
 
-        $requete = "select * FROM artistes";
+        $requete = "SELECT * FROM artistes";
 
         // 2 execeuter la requete et stockage L execution  (vdans la variable $exec)
         // conn à la bd pour effectuer une requete ( SELECT, INSERT, UPDATE, DELETE)
@@ -59,8 +59,7 @@ if($conn):?>
             </div>
 
             <form action="./form-modifier.php" method="post">
-                <input type="hidden" name="identifiant" value="<?php
-                 echo $value["id"];?>">
+                <input type="hidden" name="identifiant" value="<?php echo $value["id"];?>">
                  <input type="submit" value="Modifier ce produit">
             </form>
 
