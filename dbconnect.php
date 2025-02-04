@@ -3,7 +3,7 @@
 //Paramètre de connexion à la BD 
 $host = 'localhost';
 $user = 'root';
-$password = '';
+$password = 'root';
 $dbName = 'musiques';
 
 //Utilisation de la fonction de connexion PDO 
