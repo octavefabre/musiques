@@ -19,7 +19,7 @@ if($conn):?>
         // préparer la requete
         // à la place products je peux y mettre une variable et donc renommer  ou meme inserer variable + tableau 
 
-        $requete = "select * FROM artistes";
+        $requete = "SELECT * FROM artistes";
 
         // 2 execeuter la requete et stockage L execution  (vdans la variable $exec)
         // conn à la bd pour effectuer une requete ( SELECT, INSERT, UPDATE, DELETE)
