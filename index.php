@@ -14,6 +14,7 @@
         $result = $exec->fetchAll(PDO::FETCH_ASSOC);
         
         ?>
+        
 
         <?php else: ?>
         <h1> Connexion à la BDD échouée ! </h1>
