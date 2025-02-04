@@ -38,6 +38,7 @@ if($conn):?>
             <div>
 
                 <p><?php echo strtoupper($value['nom']); ?></p>
+                
                 <ul>
                     <li>id : <?php echo $value['id']; ?></li>
                     <li>email : <?php echo $value['genre']; ?></li>
@@ -45,10 +46,6 @@ if($conn):?>
                 
                
                 </ul>
-
-
-
-
 
 
                 <form action="./supprimer.php" method="post">
@@ -63,11 +60,6 @@ if($conn):?>
                  echo $value["id"];?>">
                  <input type="submit" value="Modifier ce produit">
             </form>
-
-            
-
-     
-
 
 
 
